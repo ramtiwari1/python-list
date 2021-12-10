@@ -1,0 +1,9 @@
+a=[1,3,456,7,57,85,]
+i=0
+sum=0
+b=[]
+while(i<len(a)):
+    sum=sum+(a[i])
+    i=i+1
+b.append(sum)
+print(b)
